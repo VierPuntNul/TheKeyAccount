@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+	    <meta charset="UTF-8">
+	    <title>The Key Account</title>
+	    <link rel="stylesheet" href="css/main.css">
+	    <style>
+                @import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700');
+                @font-face{
+                        src:url("fonts/pictos-regular-webfont.ttf") format("truetype"),
+                                url("fonts/pictos-regular-webfont.otf") format("opentype"),
+                                url("fonts/pictos-regular-webfont.svg") format("svg");
+                        font-family:icon;
+                }
+                label{
+                        font-family:icon;
+                        text-shadow:0 -1px 0 #666;
+                        -webkit-font-smoothing: antialiased; 
+                }
+            </style>
+	    <script src="js/sha1.js"></script>
+	    <script src="js/aes.js"></script>
+    </head>
+    <body>
+	<div id="main">
+	    <div class="content-box" style="margin-top: 20px; margin-bottom: 10px;">
+                <div class="box-content" style="padding-top: 20px;">
+		    
+                    <form id="password-form" name="password-form" action="#" method="post">
+			
+			<label id="personalusername" for="personalusername-field">9</label>
+                        <input type="text" name="personalusername-field" id="personalusername-field" placeholder="personal username" required/>
+			
+			<label id="personalpass" for="personalpass-field">k</label>
+                        <input type="password" name="personalpass-field" id="personalpass-field" placeholder="personal password" required />	
+			
+                        <label id="domain" for="domain-field">4</label>
+                        <input type="text" name="domain-field" id="domain-field" placeholder="service domain" required/>
+                        
+                        <label id="serviceusername" for="serviceusername-field">p</label>
+                        <input type="text" name="serviceusername-field" id="serviceusername-field" placeholder="default service username" required/>		
+                        
+                        <input type="button" id="submit" name="submit" value="Get Password"/>
+                    </form>
+                    
+                </div>
+            </div>
+	</div>
+	<footer style="margin-bottom: 10px; position: static; width: 100%;">
+	    <img src="img/logo.png" />
+	    <input type="text" name="servicepass" id="servicepass" style="opacity: 0; width: 10px; height: 10px; margin: 0; padding: 0; line-height: &0px;"/>		
+	</footer>
+	<script src="js/login.js" language="javascript"> </script>
+    </body>
+</html>

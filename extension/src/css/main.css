@@ -1,0 +1,155 @@
+body{
+    background: url("../img/background.jpg");
+    background-size: cover;
+    background-position: top center;
+    font-family: open-sans;
+    overflow: hidden;
+}
+
+.main{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.content-box{
+    width: 450px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.5);
+    margin-top: 200px;
+}
+
+h1{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #444;
+}
+h1 span{
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.box-title{
+    height: 65px;
+    background: white;
+    padding-top: 10px;
+    margin-bottom: 55px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+
+.box-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+label{
+    height: 55px;
+    width: 55px;
+    background: #7c7c7c;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 55px;
+    font-size: 24px;
+}
+
+input, input:focus{
+    font-size: 20px;
+    color: #7c7c7c;
+    height: 55px;
+    width: 355px;
+    border: none;
+    background: white;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+input[type="button"]{
+    margin-top: 30px;
+    width: 410px;
+}
+input[type="button"]:hover{
+    color: #444;
+}
+
+.attribution{
+    font-size: 18px;
+    font-family: "Open Sans";
+    opacity: 0.8;
+    color: white;
+    -webkit-transform: rotate(-90deg);
+    /*-webkit-transform-origin: 50% -50%;*/
+    margin-right: -90px;
+    margin-top: -50px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+}
+.attribution span{
+    opacity: 0.8;
+}
+
+.attribution a, .attribution a:link, .attribution a:visited{
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: white;
+    opacity: 1;
+}
+
+footer{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Open Sans";
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+.left{
+    float: left;
+}
+
+.left a{
+    opacity: 0.5;
+}
+.left a:hover{
+    opacity: 1;
+}
+
+.right{
+    float: right;
+    margin-right: 20px;
+    line-height: 48px;
+    vertical-align: center;
+}
+
+.right p{
+    margin: 0;
+    padding: 0;
+}
+.right span{
+    opacity: 0.5;
+}
+
+.right a{
+    line-height: 48px;
+    vertical-align: center;
+}
+
+.right a img{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.right a img:hover{
+    opacity: 1;
+}

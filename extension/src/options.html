@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+            <meta charset="UTF-8">
+            <title>The Key Account :: Configuration</title>
+            <link rel="stylesheet" href="css/main.css">
+            <style>
+                @import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700');
+                @font-face{
+                        src:url("fonts/pictos-regular-webfont.ttf") format("truetype"),
+                                url("fonts/pictos-regular-webfont.otf") format("opentype"),
+                                url("fonts/pictos-regular-webfont.svg") format("svg");
+                        font-family:icon;
+                }
+                label{
+                        font-family:icon;
+                        text-shadow:0 -1px 0 #666;
+                        -webkit-font-smoothing: antialiased; 
+                }
+            </style>
+	
+    </head>
+    <body>
+        <header>
+        </header>
+        
+        <div class="main">
+            <div class="content-box">
+                <div class="box-title">
+                    <h1>The Key Account <span>Configuration</span></h1>
+                </div>
+                <div class="box-content">
+                    <form id="configuration-form" name="configuration-form" action="#" method="post">
+                        <label id="url" for="url-field">8</label>
+                        <input type="text" name="url-field" id="url-field" placeholder="service URL" required/>
+                        <label id="encryptionpass" for="encryptionpass-field">k</label>
+                        <input type="password" name="encryptionpass-field" id="encryptionpass-field" placeholder="encryption" required />
+                        
+                        <label id="serviceusername" for="serviceusername-field">p</label>
+                        <input type="text" name="serviceusername-field" id="serviceusername-field" placeholder="default service username"/>
+                        
+                        <label id="personalusername" for="personalusername-field">9</label>
+                        <input type="text" name="personalusername-field" id="personalusername-field" placeholder="personal username" />
+                        
+                        <input type="button" id="submit" name="submit" value="save & exit"/>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <footer>
+                <div class="left">
+                    <a href="http://thekeyaccount.webvi.be" target="_blank"><img src="img/logo.png" /></a>
+                </div>
+                <div class="right">
+                    <p><span>Made with love by </span><a href="http://vierpuntnul.be"><img src="img/vpn.png" /></a></p>
+                </div>
+        </footer>
+        <div class="attribution">
+            <p><span>image by </span><a href="http://www.flickr.com/photos/jamesstringer/2745623949/" target="_blank">James Stringer</a></p>
+        </div>
+	<script src="js/options.js" language="javascript"> </script>
+    </body>
+</html>
